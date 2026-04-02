@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "eastus"
+    },
+    "functionAppName": {
+      "value": "kas-resume-api-01"
+    },
+    "functionStorageAccountName": {
+      "value": "kasresumefunc01"
+    },
+    "hostingPlanName": {
+      "value": "kas-resume-plan"
+    },
+    "cosmosAccountName": {
+      "value": "kasresumecosmos01"
+    },
+    "cosmosTableName": {
+      "value": "ResumeCounter"
+    },
+    "pythonVersion": {
+      "value": "3.11"
+    }
+  }
+}
